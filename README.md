@@ -41,7 +41,7 @@ To run the project, ensure you have the following Python libraries installed:
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone [<repository-url>](https://github.com/kavindadimuthu/Intellihack_Deep-Thinkers_4.git)
+   git clone https://github.com/kavindadimuthu/Intellihack_Deep-Thinkers_4.git
    cd stock-price-prediction
    ```
 2. Install dependencies:
@@ -113,10 +113,10 @@ The dataset spans 11,291 entries, with some missing values handled during prepro
    - Save predictions to `predictions.csv`.
 
 ## Results
-- **Model Performance** (example output):
-  - MAE: (value from notebook, e.g., 4.1234).
-  - RMSE: (value from notebook, e.g., 5.6789).
-  - Directional Accuracy: (value from notebook, e.g., 65.43%).
+- **Model Performance** :
+  - MAE: 24.1062.
+  - RMSE: 29.3561.
+  - Directional Accuracy: 50.57%.
 - **Trading Performance**: Total Return: -64.17% (indicating a loss, suggesting model refinement needed).
 - **Visualizations**:
   - Actual vs. Predicted Prices.
